@@ -2,7 +2,7 @@
 classes:
   - gds_dns
 
-resolvconf::overrride_dhcp: true
+resolvconf::override_dhcp: true
 resolvconf::nameservers: '172.16.10.1'
 
 dnsmasq::server::hosts: |

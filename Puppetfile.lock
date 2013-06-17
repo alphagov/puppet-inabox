@@ -28,7 +28,7 @@ GIT
 GIT
   remote: git://github.com/alphagov/puppet-resolvconf.git
   ref: master
-  sha: f6a595ac2bd6465cb631a65db5fdfd87d948018e
+  sha: 37ece3e932087d9c673861effba46f73081b2c0e
   specs:
     resolvconf (0.0.1)
 
