@@ -1,3 +1,2 @@
 ---
-classes:
-  - 'gds_dns::server'
+gds_dns::server: true

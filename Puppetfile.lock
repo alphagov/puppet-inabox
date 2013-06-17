@@ -6,7 +6,7 @@ FORGE
 GIT
   remote: git://github.com/alphagov/puppet-dnsmasq.git
   ref: gds_fork
-  sha: 287b17f42a9933b739c81ac5e4c4899e6051ceb8
+  sha: cd72770ea6852af67f2269feb7a87a9c01cee0b6
   specs:
     dnsmasq (1.0.1)
       puppetlabs/stdlib (~> 3)
@@ -14,7 +14,7 @@ GIT
 GIT
   remote: git://github.com/alphagov/puppet-gds_dns.git
   ref: master
-  sha: afcce1ed2b95c24987b6e8d3b2f5f5a4137d60ba
+  sha: b4c7866e7daef347660354984b42e1afe21acfc4
   specs:
     gds_dns (0.0.1)
 
@@ -28,7 +28,7 @@ GIT
 GIT
   remote: git://github.com/alphagov/puppet-resolvconf.git
   ref: master
-  sha: 37ece3e932087d9c673861effba46f73081b2c0e
+  sha: 3c54cf2c1f859252945945191e1a60ba367a1283
   specs:
     resolvconf (0.0.1)
 

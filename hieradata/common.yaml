@@ -3,7 +3,10 @@ classes:
   - gds_dns
 
 resolvconf::override_dhcp: true
-resolvconf::nameservers: '172.16.10.10'
+resolvconf::nameservers:
+  - '172.16.10.10'
+  - '8.8.8.8'
+  - '8.8.4.4'
 
 dnsmasq::server::hosts: |
   172.16.10.10 node0.internal node0
