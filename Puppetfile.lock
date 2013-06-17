@@ -3,6 +3,31 @@ FORGE
   specs:
     puppetlabs/stdlib (3.2.0)
 
+GIT
+  remote: git://github.com/alphagov/puppet-dnsmasq.git
+  ref: gds_fork
+  sha: 287b17f42a9933b739c81ac5e4c4899e6051ceb8
+  specs:
+    dnsmasq (1.0.1)
+      puppetlabs/stdlib (~> 3)
+
+GIT
+  remote: git://github.com/alphagov/puppet-hosts.git
+  ref: master
+  sha: 7a1c4ed93e10287374643234bc86b0b2a2903a32
+  specs:
+    hosts (0.0.1)
+
+GIT
+  remote: git://github.com/alphagov/puppet-resolvconf.git
+  ref: master
+  sha: f6a595ac2bd6465cb631a65db5fdfd87d948018e
+  specs:
+    resolvconf (0.0.1)
+
 DEPENDENCIES
+  dnsmasq (>= 0)
+  hosts (>= 0)
   puppetlabs/stdlib (~> 3.0)
+  resolvconf (>= 0)
 
