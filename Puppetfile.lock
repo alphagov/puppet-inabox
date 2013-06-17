@@ -12,6 +12,13 @@ GIT
       puppetlabs/stdlib (~> 3)
 
 GIT
+  remote: git://github.com/alphagov/puppet-gds_dns.git
+  ref: master
+  sha: afcce1ed2b95c24987b6e8d3b2f5f5a4137d60ba
+  specs:
+    gds_dns (0.0.1)
+
+GIT
   remote: git://github.com/alphagov/puppet-hosts.git
   ref: master
   sha: 7a1c4ed93e10287374643234bc86b0b2a2903a32
@@ -27,6 +34,7 @@ GIT
 
 DEPENDENCIES
   dnsmasq (>= 0)
+  gds_dns (>= 0)
   hosts (>= 0)
   puppetlabs/stdlib (~> 3.0)
   resolvconf (>= 0)
