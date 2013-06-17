@@ -1,3 +1,11 @@
 ---
 classes:
-  -
+  - gds_dns
+
+resolvconf::overrride_dhcp: true
+resolvconf::nameservers: '172.16.10.1'
+
+dnsmasq::server::hosts: |
+  172.16.10.1 node0.internal node0
+  172.16.10.2 node1.internal node1
+  172.16.10.3 node2.internal node2
