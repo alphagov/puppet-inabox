@@ -12,4 +12,4 @@ mod 'resolvconf',
   :git => 'git://github.com/alphagov/puppet-resolvconf.git'
 mod 'dnsmasq',
   :git => 'git://github.com/alphagov/puppet-dnsmasq.git',
-  :ref => 'gds_fork'
+  :ref => 'anchor_reload_and_resolvconf'
